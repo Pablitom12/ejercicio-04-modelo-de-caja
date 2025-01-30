@@ -1,0 +1,18 @@
+body {
+    background-color:rgb(205, 53, 101);
+    font-family: Arial, sans-serif;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+h1 {
+    background-color: rgb(171, 45, 92);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 0.3em;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+
+}
+

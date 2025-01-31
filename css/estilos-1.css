@@ -18,7 +18,7 @@ h1 {
 main {
     background-color: rgb(171, 45, 92);
     border-radius: 8px;
-    padding-bottom: 2.5em;
+    padding-bottom: 1em;
     margin-bottom: 15px;
 }
 
@@ -56,10 +56,9 @@ main {
 
 .juego {
     background-color: white;
-    border: 2px solid rgb(171, 45, 92);
     margin: 0.6em;
+    margin-bottom: 2em;
     padding: 0.5em;
-    text-align: left;
     border-radius: 8px;
 }
 
@@ -70,11 +69,12 @@ main {
 .juego button {
     background-color: rgb(76, 140, 54);
     color: white;
+    font-weight: bold;
     border: none;
     border-radius: 4px;
     padding: 0.7em;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
     font-size: 13px;
     cursor: pointer;
 }

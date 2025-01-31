@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "pixelon";
+    src: url(../fonts/pixelon/Pixelon.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../assets/img/22379946_6538522.svg") no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+    font-family: "pixelon";
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin: 4%;
+}
+
+.juegos h2 {
+    background-image: linear-gradient(to right, turquoise, darkcyan);
+    border-radius: 10px;
+    color: black;
+    font-family: "pixelon";
+    font-weight: 100;
+    margin: 1rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.juego {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.3rem;
+    background: linear-gradient(#ccc 0 0) padding-box,
+        linear-gradient(to right, turquoise, #9c20aa) border-box;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    color: black;
+}
+
+.juego h3 {
+    font-family: "pixelon";
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    text-align: start;
+}
+
+.juego img {
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+.juego p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+    margin: 0.3rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.buy-button {
+    text-align: end;
+}
+
+.juego button {
+    background-color:cadetblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 1%;
+    font-family: "pixelon";
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.juego button:hover {
+    background-color: darkcyan;
+}
+
+footer {
+    color: wheat;
+    text-align: center;
+    margin-bottom: 1rem;
+}

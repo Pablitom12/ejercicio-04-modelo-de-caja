@@ -40,7 +40,7 @@ main {
     content: " ";
     display: block;
     width: 100%;
-    border-bottom: 1px solid rgb(171, 45, 92);
+    border-bottom: 2px dotted rgb(171, 45, 92);
 }
 
 .juegos img {
@@ -55,7 +55,7 @@ main {
 
 .juego {
     background-color: white;
-    margin: 0.6vw;
+    margin: 0.5em;
     margin-bottom: 2em;
     padding: 0.5em;
     border-radius: 8px;
@@ -87,11 +87,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 10px;
+    font-weight: bold;
     padding: 1em;
     border-radius: 4px;
 }
-
-
-
-
-

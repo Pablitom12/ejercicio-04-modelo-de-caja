@@ -94,6 +94,13 @@ footer {
 
 /* Adicional páginas de detalle de juegos: */
 
+h2 ::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    border-bottom: 2px dotted white;
+}
+
 .descripcion {
     margin-left: 5%;
     margin-right: 5%;

@@ -91,3 +91,43 @@ footer {
     padding: 1em;
     border-radius: 4px;
 }
+
+/* Adicional páginas de detalle de juegos: */
+
+.descripcion {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5rem;
+}
+
+.descripcion p {
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.descripcion img {
+    width: 50%;
+    min-width: 240px;
+    max-width: 380px;
+    margin-bottom: 2%;
+}
+
+.img-left {
+    float:inline-start;
+    margin-right: 3%;
+}
+
+.img-right {
+    float:inline-end;
+    margin-left: 3%;
+}
+
+.volver-button {
+    text-align: end;
+    margin-right: 5%;
+}
+
+.volver-button button:hover {
+    background-color: rgb(76, 140, 54);
+}
